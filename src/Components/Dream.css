@@ -7,7 +7,7 @@
     font-size: 50px;
     font-weight: 500;
     color: aqua;
-    filter: drop-shadow(0 0 0.01rem aqua);
+    filter: drop-shadow(0 0 0.5rem aqua);
     padding-top: 4rem;
 }
 

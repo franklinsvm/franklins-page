@@ -1,6 +1,5 @@
 .contact-container {
     background-color: rgb(15,15,15);
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +22,7 @@
 .field {
     background: transparent;
     border: none;
-    width: 30rem;
+    width: 100%;
     font-size: 1.2rem;
     border-bottom: 1px dashed #636363;
     height: 3rem;
@@ -35,6 +34,7 @@
 .input-group {
     position: relative;
     padding-top: 1rem;
+    width: 80%;
 }
 
 .field-label {

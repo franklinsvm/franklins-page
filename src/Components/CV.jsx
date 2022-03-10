@@ -3,7 +3,7 @@ import "./CV.css"
 
 const CV = () => {
   return (
-    <section className="curriculum-container">
+    <div className="curriculum-container">
         <div className="curriculum-img">
             <img src="Imgs/polar-lights.jpg" alt="Polar Lights" />
         </div>
@@ -15,7 +15,7 @@ const CV = () => {
             <h6>You can help me IMPROVE my Curriculum Vitae here!</h6>    
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

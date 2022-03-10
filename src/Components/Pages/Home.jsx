@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "./Home.css";
 import HeroSection from "../HeroSection";
 import Expertise from "../Expertise";
 import About from "../About";
@@ -10,7 +10,7 @@ import Contact from "../Contact";
 
 function Home () {
     return (
-        <>
+        <div className="home-div">
             <HeroSection />
             <Expertise />
             <About />
@@ -18,7 +18,7 @@ function Home () {
             <Options />
             <CV />
             <Contact />
-        </>
+        </div>
     )
 }
 

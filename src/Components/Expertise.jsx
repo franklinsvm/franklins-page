@@ -5,12 +5,12 @@ import ExpertiseItem from "./ExpertiseItem";
 
 const Expertise = () => {
   return (
-    <section className="expertise-container">
+    <div className="expertise-container">
         <img className="expertise-background" src="/Imgs/stars.jpg" alt="Night sky"/>
-        <h1>Expertise:</h1>
+        <h1 className="expertise-title">Expertise:</h1>
         <div className="items-container">
             <div className="items-wrapper">
-                <ul className="expertise-items" >
+                <ul className="expertise-items expertise-1" >
                     <ExpertiseItem src="Imgs/React.png" text="React.js"/>
                     <ExpertiseItem src="Imgs/js.png" text="JavaScript" />
                 </ul>
@@ -21,7 +21,7 @@ const Expertise = () => {
                 </ul>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

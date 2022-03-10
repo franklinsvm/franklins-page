@@ -1,13 +1,12 @@
 .options-container {
     background-color: rgb(27,27,27);
-    overflow: hidden;
 }
 
-options-text {
+.options-text h1{
     text-align: center;
     font-size: 50px;
     font-weight: 500;
     color: aqua;
-    filter: drop-shadow(0 0 0.5em aqua);
+    filter: drop-shadow(0 0 0.5rem aqua);
     padding-top: 4rem;
   }

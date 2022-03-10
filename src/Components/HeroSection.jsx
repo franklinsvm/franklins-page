@@ -5,7 +5,7 @@ import {Button} from "./Button.jsx";
 const HeroSection = () => {
 
     return (
-        <section className="hero-container">
+        <div className="hero-container">
             <img className="hero-background" src="/Imgs/aurora.jpg" alt="Northern lights" />
             <div className="header">
                 <img className="hero-header" src="/Imgs/log (1).png" alt="Franklin logo" />
@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </Button>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
