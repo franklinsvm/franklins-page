@@ -15,6 +15,7 @@ function Home () {
             <Expertise />
             <About />
             <Dream />
+            <Options />
             <CV />
             <Contact />
         </>
