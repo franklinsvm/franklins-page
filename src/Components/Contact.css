@@ -1,0 +1,119 @@
+.contact-container {
+    background-color: rgb(15,15,15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-right h3 {
+    color: aqua;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    background: transparent;
+    border: none;
+    width: 30rem;
+    font-size: 1.2rem;
+    border-bottom: 1px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin-top: 0.5rem;
+    color: aqua;
+}
+
+.input-group {
+    position: relative;
+    padding-top: 1rem;
+}
+
+.field-label {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.3s;
+    color: white;
+}
+
+.field:focus ~ label {
+    top: 0.4rem;
+    font-size: 1rem;
+}
+
+.field:valid ~ label {
+    top: 0.4rem;
+    font-size: 1rem;
+}
+
+.field:focus {
+    border-bottom: 1px solid;
+}
+
+.input-group textarea {
+    padding-top: 0.4rem;
+    height: 10rem;
+    resize: none;
+}
+
+.contact-wrapper {
+    width: 60%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1.5rem 2rem rgba(0,0,0,0.5);
+    padding: 5rem 0;
+}
+
+.contact-left {
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(rgba(15,15,15,0.6), rgba(20,20,20,0.9)), url(/public/Imgs/contact-img.jpg);
+    background-size: cover;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.contact-right {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(50,50,50);
+    padding: 1rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    text-transform: uppercase;
+    width: 70%;
+    height: 2rem;
+    background-image: linear-gradient(to right, rgb(130,252,252), aqua, rgb(2,134,134));
+    color: rgb(15,15,15);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0.1rem 0.7rem rgba(0,0,0,0.4);
+    margin-top: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+    background-image: linear-gradient(to right, rgb(186,252,252), rgb(116,252,252), rgb(2,197,197));
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+

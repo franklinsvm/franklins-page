@@ -1,0 +1,36 @@
+.curriculum-container {
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.curriculum-img img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.curriculum-options {
+    color: aqua;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 7rem;
+    padding: 10rem 0;
+}
+
+.curriculum-option {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.6);
+    width: 40rem;
+    height: 4rem;
+    box-shadow: 1rem 0 1.5rem rgba(237,237,237,0.5), 0.1rem 0 0.3rem aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

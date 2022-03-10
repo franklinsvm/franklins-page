@@ -1,0 +1,13 @@
+.options-container {
+    background-color: rgb(27,27,27);
+    overflow: hidden;
+}
+
+options-text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: aqua;
+    filter: drop-shadow(0 0 0.5em aqua);
+    padding-top: 4rem;
+  }

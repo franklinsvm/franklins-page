@@ -1,0 +1,43 @@
+.dream-container {
+    background-color: rgb(15,15,15);
+}
+
+.dream-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: aqua;
+    filter: drop-shadow(0 0 0.01rem aqua);
+    padding-top: 4rem;
+}
+
+.dream-text {
+    text-align: center;
+    margin: 5rem 15rem;
+    color: white;
+}
+
+.dream-item {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin: 0 15rem;
+}
+
+.dream-item-text {
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+.dream-item-img {
+    height: 15rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.dream-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
