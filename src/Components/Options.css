@@ -10,3 +10,10 @@
     filter: drop-shadow(0 0 0.5rem aqua);
     padding-top: 4rem;
   }
+
+  .options-text p {
+      text-align: center;
+      color: white;
+      padding: 3rem;
+      font-size: 1.1rem;
+  }

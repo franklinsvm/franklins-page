@@ -15,16 +15,12 @@
     margin: 0 5rem;
 }
 
-.about-text h2 {
+.about-text h2, .color-text {
     color: aqua;
 }
 
 .about-text p {
     color: white;
-}
-
-.color-text {
-    color: aqua;
 }
 
 .franklin-img {

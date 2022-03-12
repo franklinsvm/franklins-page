@@ -5,7 +5,7 @@ import ExpertiseItem from "./ExpertiseItem";
 
 const Expertise = () => {
   return (
-    <div className="expertise-container">
+    <div className="expertise-container" id="expertise-id">
         <img className="expertise-background" src="/Imgs/stars.jpg" alt="Night sky"/>
         <h1 className="expertise-title">Expertise:</h1>
         <div className="items-container">

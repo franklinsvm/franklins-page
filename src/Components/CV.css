@@ -1,11 +1,11 @@
 .curriculum-container {
     width: 100%;
-    height: 35rem;
     position: relative;
 }
 
 .curriculum-img img {
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
 }
@@ -26,7 +26,7 @@
     border: 1px solid white;
     border-radius: 15px;
     background-color: rgba(0,0,0,0.6);
-    width: 40rem;
+    width: 40%;
     height: 4rem;
     box-shadow: 1rem 0 1.5rem rgba(237,237,237,0.5), 0.1rem 0 0.3rem aqua;
     display: flex;

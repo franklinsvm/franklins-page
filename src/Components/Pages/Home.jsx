@@ -7,6 +7,7 @@ import Dream from "../Dream";
 import Options from "../Options";
 import CV from "../CV";
 import Contact from "../Contact";
+import Footer from "../Footer";
 
 function Home () {
     return (
@@ -18,6 +19,7 @@ function Home () {
             <Options />
             <CV />
             <Contact />
+            <Footer />
         </div>
     )
 }
