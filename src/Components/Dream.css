@@ -5,15 +5,6 @@
     align-items: center;
 }
 
-.dream-title {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-    color: aqua;
-    filter: drop-shadow(0 0 0.5rem aqua);
-    padding-top: 4rem;
-}
-
 .dream-text {
     text-align: center;
     width: 70%;
@@ -25,8 +16,11 @@
 .dream-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10rem;
     margin: 0 15rem;
+    width: 60%;
+    align-self: center;
 }
 
 .dream-item-text {
@@ -44,11 +38,12 @@
     height: 30vh;
     width: 20vw;
     border-radius: 5px;
+    box-shadow: -0.2rem 0.2rem 0.8rem aqua;
 }
 
 .dream-steps {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5rem;
     padding-bottom: 5rem;
 }

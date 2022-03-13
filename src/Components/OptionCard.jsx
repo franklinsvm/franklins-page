@@ -12,49 +12,49 @@ const OptionCard = (props) => {
         <ul className="option-list">
           <li className="option-att">
             <span>Academic Education</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.academic}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Professional Experience</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.profExp}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Creativity</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.creativity}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Communication Skills</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.communication}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Ethics</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.ethic}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Fast Learner</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.learning}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Dream Maker Skills</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.skills}>
               <div></div>
             </div>
           </li>
           <li className="option-att">
             <span>Potential</span>
-            <div className="progress-bar pb1">
+            <div className={"progress-bar pb" + props.progressBar.potential}>
               <div></div>
             </div>
           </li>

@@ -25,12 +25,12 @@
     padding: 4rem;
   }
   
-  .expertise-title {
+  .section-title {
     text-align: center;
     font-size: 50px;
     font-weight: 500;
     color: aqua;
-    filter: drop-shadow(0 0 0.5em aqua);
+    filter: drop-shadow(0 0 0.5rem aqua);
     padding-top: 4rem;
   }
   
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(27,27,27,0.5);
-    box-shadow: 0 0.5rem 1rem rgba(237,237,237,0.5);
+    box-shadow: 0 0.5rem 1rem rgba(237,237,237,0.5),  0 0.2rem 0.4rem aqua;
     height: 14rem;
     width: 18rem;
     border-radius: 15px;
@@ -75,6 +75,8 @@
 
   .expertise-item:hover {
     transform: scale(1.1);
+    box-shadow: 0 0.7rem 1.5rem rgba(237,237,237,0.6), 0 0.3rem 0.7rem aqua;
+
   }
   
   
