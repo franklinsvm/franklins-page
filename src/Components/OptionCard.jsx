@@ -1,83 +1,71 @@
 import React from 'react'
 
-const OptionCard = () => {
+const OptionCard = (props) => {
   return (
-    <>
-        <div className="swiper-slide">
-            <div className="img-opt">
-                <img className="img-dev"src="/" alt="/" />
-            </div>
-            <div className="option-title">
-                <p>Dev</p>
-            </div>
 
-        <div class="div-opt">
-         <ul class="option-list">
-         <li class="option-at">
-           <span>Academic Education</span>
-           <div class="progress-bar pb9">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Professional Experience</span>
-           <div class="progress-bar pb10">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Creativity</span>
-           <div class="progress-bar pb11">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Communication Skills</span>
-           <div class="progress-bar pb12">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Ethics</span>
-           <div class="progress-bar pb13">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Fast Learner</span>
-           <div class="progress-bar pb14">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Dream Maker Skills</span>
-           <div class="progress-bar pb15">
-             <div></div>
-           </div>
-         </li>
-         <li class="option-at">
-           <span>Potential</span>
-           <div class="progress-bar pb16">
-             <div></div>
-           </div>
-         </li>
-       </ul>
-     </div>
-        </div>
-    </>
+    <li className="slide-content">
+      <div className="dev-image-wrap">
+        <img src={props.src} alt="Developer" className="dev-image" />
+      </div>
+      <div className="dev-content">
+        <h3 className="dev-name">{props.name}</h3>
+        <ul className="option-list">
+          <li className="option-att">
+            <span>Academic Education</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Professional Experience</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Creativity</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Communication Skills</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Ethics</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Fast Learner</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Dream Maker Skills</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+          <li className="option-att">
+            <span>Potential</span>
+            <div className="progress-bar pb1">
+              <div></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </li>
+
   )
 }
 
 export default OptionCard
 
-{/* <>
-        <li className="expertise-item">
-            <div className="expertise-item-pic-wrap">
-            <img className="expertise-item-img" src={props.src} alt="Expertise" />
-            </div>
-            <div className="expertise-item-info">
-                <h5 className="expertise-item-text">{props.text}</h5>
-            </div>
-        </li>
-    </> */}
+
 

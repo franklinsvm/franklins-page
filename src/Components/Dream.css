@@ -34,6 +34,12 @@
     font-size: 1.5rem;
 }
 
+.dream-item-number {
+    color: #444;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
 .dream-item-img {
     height: 30vh;
     width: 20vw;

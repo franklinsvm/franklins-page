@@ -33,3 +33,18 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.curriculum-option a {
+    color: white;
+}
+
+.btn-cv {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: "mulish", sans-serif;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

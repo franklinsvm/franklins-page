@@ -9,6 +9,7 @@ const DreamCard = (props) => {
           <img className="dream-item-img" src={props.src} alt="Dream step" />  
         </div>
         <div className="dream-item-info">
+          <span className="dream-item-number">{props.number}</span>
           <h3 className="dream-item-text">{props.text}</h3>
         </div>
       </li>
