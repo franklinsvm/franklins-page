@@ -36,8 +36,8 @@ const Options = () => {
           <SwiperSlide><OptionCard src="Imgs/dev5.png" name="Dev Five" attributes="" className="swiper-slide" /></SwiperSlide>
         </Swiper>
         <div className="options-btn">
-          <button className="opt-btn btn-left" onClick={onClickPrev}>A</button>
-          <button className="opt-btn btn-right" onClick={onClickNext}>B</button>
+          <button className="opt-btn btn-left" onClick={onClickPrev}><ion-icon name="chevron-back-outline"></ion-icon></button>
+          <button className="opt-btn btn-right" onClick={onClickNext}><ion-icon name="chevron-forward-outline"></ion-icon></button>
         </div>
         </div>
     </div>

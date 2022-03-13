@@ -389,3 +389,9 @@
     transform: translate(50%,-50%);
     z-index: 1;
 }
+
+ion-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  stroke: black;
+}
