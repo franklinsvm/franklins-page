@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { SideBarData } from './SideBarData';
+import "./NavBar.css"
 
 const NavBar = () => {
 
@@ -12,14 +13,14 @@ const NavBar = () => {
     <>
     <div className="navbar">
         <Link to="#" className="menu-bars">
-            <ion-icon name="menu-outline" onClick={showSidebar}></ion-icon>
+            <ion-icon color="light" name="menu-outline" onClick={showSidebar}></ion-icon>
         </Link>
     </div>
-    <nav className={sidebar ? "nav-menu-active" : "nav-menu"}>
+    <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-                <Link to="#" className="menu-bars">
-                    <ion-icon name="close-outline"></ion-icon>
+                <Link to="#" className="menu-bars menu-x">
+                    <ion-icon color="light" name="close-outline"></ion-icon>
                 </Link>
             </li>
             {SideBarData.map((item, index) => {
@@ -27,7 +28,7 @@ const NavBar = () => {
                     <li key={index} className={item.cName}>
                         <Link to={item.path}>
                             {item.icon}
-                            <span>{item.title}</span>
+                            <span className="item-title">{item.title}</span>
                         </Link>
                     </li>
                 )
