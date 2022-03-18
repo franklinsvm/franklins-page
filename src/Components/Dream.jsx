@@ -4,7 +4,7 @@ import DreamCard from './DreamCard'
 
 const Dream = () => {
   return (
-      <div className="dream-container">
+      <div className="dream-container" id="dream-id">
         <div>
             <h1 className="section-title">You dream, I make I.T. happen!</h1>
         </div>

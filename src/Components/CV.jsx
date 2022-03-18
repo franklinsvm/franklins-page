@@ -10,7 +10,7 @@ const CV = () => {
 }
 
   return (
-    <div className="curriculum-container">
+    <div className="curriculum-container" id="curriculum-id">
         <div className="curriculum-img">
             <img src="Imgs/polar-lights.jpg" alt="Polar Lights" />
         </div>

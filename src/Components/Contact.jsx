@@ -26,6 +26,7 @@ const Contact = () => {
             <div className="contact-left"></div>
             <div className="contact-right">
                 <h3>Contact Me!</h3>
+                <p>Not yet linked to a server. Just for demonstrative purpose.</p>
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <div className="input-group">
                         <input type="text" id="firstName" className="field" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />

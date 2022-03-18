@@ -22,7 +22,7 @@ const Options = () => {
   }
 
   return (
-    <div className="options-container">
+    <div className="options-container" id="options-id">
         <div className="options-text">
         <h1 className="section-title">Your Options:</h1>
         <p>There are thousands of developers around. Choose yours carefully!</p>

@@ -44,6 +44,6 @@
 .dream-steps {
     display: flex;
     flex-direction: column;
-    gap: rem;
+    gap: 4rem;
     padding-bottom: 5rem;
 }

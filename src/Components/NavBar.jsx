@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+import { HashLink as Link } from "react-router-hash-link"
 import { SideBarData } from './SideBarData';
 import "./NavBar.css"
 
@@ -12,25 +13,23 @@ const NavBar = () => {
   return (
     <>
     <div className="navbar">
-        <Link to="#" className="menu-bars">
-            <ion-icon color="light" name="menu-outline" onClick={showSidebar}></ion-icon>
-        </Link>
+        <ion-icon color="light" name="menu-outline" onClick={showSidebar}></ion-icon>
     </div>
     <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+            <div className="navbar-toggle">
+                <ion-icon className="close" color="light" name="close-outline" onClick={showSidebar}></ion-icon>
+            </div>
         <ul className="nav-menu-items" onClick={showSidebar}>
-            <li className="navbar-toggle">
-                <Link to="#" className="menu-bars menu-x">
-                    <ion-icon color="light" name="close-outline"></ion-icon>
-                </Link>
-            </li>
             {SideBarData.map((item, index) => {
                 return (
+                    <>
                     <li key={index} className={item.cName}>
-                        <Link to={item.path}>
+                        <Link smooth to={item.path}>
                             {item.icon}
                             <span className="item-title">{item.title}</span>
                         </Link>
                     </li>
+                    </>
                 )
             })}
         </ul>
