@@ -62,7 +62,6 @@
 
   .expertise-item-img {
     height: 4.5rem;
-    margin-top: 1rem;
   }
   
   .expertise-item-pic-wrap {
@@ -76,13 +75,53 @@
   .expertise-item:hover {
     transform: scale(1.1);
     box-shadow: 0 0.7rem 1.5rem rgba(237,237,237,0.6), 0 0.3rem 0.7rem aqua;
-
   }
   
-  
-  .expertise-item__text {
+  .expertise-item-text {
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
+  }
+
+  .expertise-bar {
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+  }
+
+  .progress-bar1 {
+    background-color: orange;
+    width: 80%;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .progress-bar2 {
+    background-color: orange;
+    width: 85%;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .progress-bar3 {
+    background-color: orange;
+    width: 88%;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .progress-bar4 {
+    background-color: orange;
+    width: 90%;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .progress-bar5 {
+    background-color: orange;
+    width: 70%;
+    height: 0.5rem;
+    border-radius: 10px;
   }
   
   @media only screen and (min-width: 1200px) {

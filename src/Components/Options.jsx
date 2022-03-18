@@ -9,8 +9,6 @@ import { EffectCoverflow, Pagination } from 'swiper'
 
 const Options = () => {
 
-  const swiper = document.querySelector(".swiper-comp")
-
   const onClickPrev = () => {
     const swiper2 = document.querySelector(".swiper-comp").swiper;
     swiper2.slidePrev();

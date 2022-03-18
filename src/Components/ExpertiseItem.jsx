@@ -11,6 +11,9 @@ const ExpertiseItem = (props) => {
             <div className="expertise-item-info">
                 <h5 className="expertise-item-text">{props.text}</h5>
             </div>
+            <div className="expertise-bar">
+              <div className={"progress-bar" + props.progBar}></div>
+            </div>
         </li>
     </>
     )

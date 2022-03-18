@@ -1,23 +1,17 @@
 .navbar {
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    top: 1.3rem;
     left: 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
     z-index: 1;
+    cursor: pointer;
 }
 
 ion-icon {
     transform: scale(1.2);
-}
-
-.menu-bars {
-    margin-left: 2rem;
-    font-size: 2rem;
-    background: none;
 }
 
 .nav-menu {
@@ -76,17 +70,18 @@ ion-icon {
 .nav-menu-items {
     width: 80%;
     padding-left: 0;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .navbar-toggle {
     background-color: rgb(15,15,15);
-    height: 4rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: absolute;
     left: 2rem;
+    top: 1.3rem;
+    cursor: pointer;
 }
 
 .item-title {

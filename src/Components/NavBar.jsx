@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <>
     <div className="navbar">
-        <ion-icon color="light" name="menu-outline" onClick={showSidebar}></ion-icon>
+        <ion-icon className="menu-bars" color="light" name="menu-outline" onClick={showSidebar}></ion-icon>
     </div>
     <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
             <div className="navbar-toggle">
