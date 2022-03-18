@@ -3,7 +3,7 @@ import React from 'react'
 export const SideBarData = [
     {
         title: "Home",
-        path: "/",
+        path: "/#hero-id",
         icon: <ion-icon name="home-sharp"></ion-icon>,
         cName: "nav-text nav-main"
     },

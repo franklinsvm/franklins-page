@@ -9,7 +9,7 @@ const HeroSection = () => {
     }
 
     return (
-        <div className="hero-container">
+        <div className="hero-container" id="hero-id">
             <img className="hero-background" src="/Imgs/aurora.jpg" alt="Northern lights" />
             <div className="header">
                 <img className="logo-header" src="/Imgs/log (1).png" alt="Franklin's logo" />
