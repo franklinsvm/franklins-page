@@ -92,10 +92,9 @@
   }
 
   .expertise-bar > div {
-    background-color: orange;
+    background-color: rgba(255,165,0,05);
     height: 0.5rem;
     border-radius: 10px;
-    filter: opacity(80%);
     box-shadow: 0.1rem 0.3rem 1rem orange;
   }
 

@@ -4,6 +4,7 @@ import "./About.css"
 const About = () => {
   return (
     <div className="about-container" id="about-id">
+      <img src="Imgs/blue-light.jpg" className="blue-img" alt="blue rings of light" />
         <div className="about-content">
             <div className="about-text">
                 <h2>Hard-working, Responsible, Fast Learner!</h2>

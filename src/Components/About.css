@@ -1,6 +1,13 @@
 .about-container {
-    background-color: rgb(27,27,27);
     width: 100%;
+}
+
+.blue-img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: -1;
 }
 
 .about-content {
