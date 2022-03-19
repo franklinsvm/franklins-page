@@ -1,5 +1,6 @@
 .options-container {
     background-color: rgb(27,27,27);
+    width: 100%;
 }
 
   .options-text p {
@@ -65,285 +66,172 @@
     padding: 3px;
     margin: 0.7rem 0 0.5rem 0;
   }
-  
-  .progress-bar.pb1 > div {
+
+  .progress-bar > div{
     background-color: orange;
-    width: 90%;
     height: 0.5rem;
     border-radius: 10px;
+  }
+  
+  .progress-bar.pb1 > div {
+    width: 90%;
   }
   
   .progress-bar.pb2 > div {
-    background-color: orange;
     width: 60%;
-    height: 0.5rem;
-    border-radius: 10px;
+
   }
   
   .progress-bar.pb3 > div {
-    background-color: orange;
     width: 20%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb4 > div {
-    background-color: orange;
     width: 30%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb5 > div {
-    background-color: orange;
     width: 50%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb6 > div {
-    background-color: orange;
     width: 32%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb7 > div {
-    background-color: orange;
     width: 37%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb8 > div {
-    background-color: orange;
     width: 65%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb9 > div {
-    background-color: orange;
     width: 72%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb10 > div {
-    background-color: orange;
     width: 78%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb11 > div {
-    background-color: orange;
     width: 41%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb12 > div {
-    background-color: orange;
     width: 12%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb13 > div {
-    background-color: orange;
     width: 71%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb14 > div {
-    background-color: orange;
     width: 28%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb15 > div {
-    background-color: orange;
     width: 27%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb16 > div {
-    background-color: orange;
     width: 52%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb17 > div {
-    background-color: orange;
     width: 44%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb18 > div {
-    background-color: orange;
     width: 5%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb19 > div {
-    background-color: orange;
     width: 88%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb20 > div {
-    background-color: orange;
     width: 92%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb21 > div {
-    background-color: orange;
     width: 98%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb22 > div {
-    background-color: orange;
     width: 86%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb23 > div {
-    background-color: orange;
     width: 100%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb24 > div {
-    background-color: orange;
     width: 94%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb25 > div {
-    background-color: orange;
     width: 54%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb26 > div {
-    background-color: orange;
     width: 89%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb27 > div {
-    background-color: orange;
     width: 64%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb28 > div {
-    background-color: orange;
     width: 38%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb29 > div {
-    background-color: orange;
     width: 14%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb30 > div {
-    background-color: orange;
     width: 46%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb31 > div {
-    background-color: orange;
     width: 41%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb32 > div {
-    background-color: orange;
     width: 51%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb33 > div {
-    background-color: orange;
     width: 92%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb34 > div {
-    background-color: orange;
     width: 81%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb35 > div {
-    background-color: orange;
     width: 48%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb36 > div {
-    background-color: orange;
     width: 42%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb37 > div {
-    background-color: orange;
     width: 61%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb38 > div {
-    background-color: orange;
     width: 32%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb39 > div {
-    background-color: orange;
     width: 50%;
-    height: 0.5rem;
-    border-radius: 10px;
   }
   
   .progress-bar.pb40 > div {
-    background-color: orange;
     width: 68%;
-    height: 0.5rem;
-    border-radius: 10px;
   }  
 
   .opt-btn {
