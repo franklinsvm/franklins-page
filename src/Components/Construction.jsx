@@ -4,7 +4,7 @@ import "./Construction.css"
 const Construction = () => {
   return (
     <div className="construction-container">
-        <img className="portfolio-background" src="Imgs/galaxy-stars.jpg" alt="Milky Way" />
+        <img className="portfolio-background" src="Imgs/aurora.jpg" alt="Northern Lights" />
         <div className="header">
             <img className="logo-header" src="/Imgs/log (1).png" alt="Franklin's logo" />
         </div>
