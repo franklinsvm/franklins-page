@@ -33,6 +33,12 @@
       position: relative;
   }
 
+  .option-back {
+    position: absolute;
+    width: 100%;
+    filter: brightness(70%);
+  }
+
   .swiper-slide {
       width: 15rem !important;
       margin: 0 1rem 3rem 1rem;
@@ -42,6 +48,7 @@
       justify-content: center;
       box-shadow: 0 1rem 1.5rem rgba(237,237,237,0.075);
       border-radius: 0 0 10px 10px;
+      background-color: rgba(27,27,27,0.8);
   }
 
   .slide-content {

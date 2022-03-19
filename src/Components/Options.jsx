@@ -26,6 +26,7 @@ const Options = () => {
         <p>There are thousands of developers around. Choose yours carefully!</p>
         </div>
         <div className="swiper-slides">
+        <img className="option-back" src="Imgs/aurora3.png" />
         <Swiper className="swiper-comp" effect={"coverflow"} grabCursor={true} centeredSlides={true} initialSlide={2} slidesPerView={"auto"} coverflowEffect={{rotate: 40, stretch: 0, depth: 100, modifier: 1, slideShadow: true,}} pagination={true} modules={[EffectCoverflow, Pagination]} >
           <SwiperSlide><OptionCard src="Imgs/dev1.png" name="Dev One" progressBar={{
             academic: 1,
