@@ -5,6 +5,7 @@
 .blue-img {
     position: absolute;
     width: 100%;
+    height: 100%;
     object-fit: cover;
     filter: brightness(50%);
     z-index: -1;
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .about-text {
@@ -21,6 +23,7 @@
     flex-direction: column;
     gap: 2rem;
     margin: 0 5rem;
+    width: 70%;
 }
 
 .about-text h2, .color-text {
@@ -35,4 +38,8 @@
 .franklin-img {
     height: 35rem;
     margin-right: 5rem;
+}
+
+.about-img {
+    width: 30%;
 }
