@@ -125,6 +125,10 @@
     font-size: 2.5rem
   }
 
+  .expertise-items {
+    gap: 2rem;
+}
+
   .expertise-item-text {
     font-size: 1rem;
   }
