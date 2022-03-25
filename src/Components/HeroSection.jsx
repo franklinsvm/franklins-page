@@ -17,7 +17,7 @@ const HeroSection = () => {
             </div>
             <div className="hero-back">
                 <h1>Mr. Franklin Martins</h1>
-                <p>Your Front-End Developer!</p>
+                <p>Your Full Stack Developer!</p>
                 <div className="hero-btn">
                     <button className="btn-hero" onClick={onClickLets}>Let's GO!</button>
                 </div>
