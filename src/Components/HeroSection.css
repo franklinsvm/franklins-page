@@ -103,3 +103,25 @@ video {
     transition: 250ms;
   }
   
+
+  
+@media screen and (max-width: 768px) {
+
+.hero-back {
+  margin-top: -3rem;
+}
+
+.hero-back > h1 {
+      font-size: 3rem;
+      padding-top: 5rem;
+  }
+  
+  .hero-back > p {
+      font-size: 1.7rem;
+  }
+  
+  .btn-hero {
+      width: 100%;
+      font-size: 1.1rem;
+  }
+}

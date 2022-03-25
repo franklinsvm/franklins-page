@@ -47,3 +47,15 @@
     padding-bottom: 5rem;
     width: 95%;
 }
+
+@media screen and (max-width: 768px) {
+
+    .dream-text {
+        font-size: 0.8rem;
+    }
+
+    .dream-item-text {
+        font-size: 1rem;
+    }
+
+}
