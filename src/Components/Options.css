@@ -281,3 +281,29 @@ ion-icon {
   width: 1.5rem;
   stroke: black;
 }
+
+@media screen and (max-width: 768px) {
+
+.options-text p {
+    font-size: 0.9rem;
+}
+
+.dev-image {
+  height: 10rem;
+  width: 10rem;
+}
+
+.swiper-slide {
+  width: 10rem !important;
+}
+
+.slide-content {
+  width: 10rem;
+}
+
+.opt-btn {
+  height: 5rem;
+  width: 2rem;
+}
+
+}

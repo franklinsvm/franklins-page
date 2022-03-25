@@ -140,3 +140,30 @@
     cursor: default;
 }
 
+@media screen and (max-width: 768px) {
+
+    .contact-right h3 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .field-label {
+        font-size: 0.8rem;
+    }
+
+    .input-group textarea {
+        height: 8rem;
+    }
+
+    .btn-sub {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .btn-submit:hover,
+    .btn-submit:active {
+    font-size: 1rem;
+    }
+
+}
+

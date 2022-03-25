@@ -54,6 +54,11 @@
         font-size: 0.8rem;
     }
 
+    .dream-item {
+        width: 70%;
+        gap: 1rem;
+    }
+
     .dream-item-text {
         font-size: 1rem;
     }

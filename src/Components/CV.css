@@ -48,3 +48,16 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+
+    .curriculum-options {
+        font-size: 1.2rem;
+    }
+
+    .curriculum-option {
+        width: 60%;
+    }
+
+
+}

@@ -39,7 +39,6 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
     margin: 0 auto;
 }
   
@@ -125,8 +124,13 @@
     font-size: 2.5rem
   }
 
+  .items-wrapper {
+      width: 95%;
+  }
+
   .expertise-items {
     gap: 2rem;
+    padding: 0;
 }
 
   .expertise-item-text {
