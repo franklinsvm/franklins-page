@@ -56,11 +56,12 @@
     }
 
     .btn-cv {
-        font-size: 0.9rem;
+        font-size: 0.83rem;
     }
 
     .curriculum-option {
         width: 60%;
+        padding: 0.2rem;
     }
 
 

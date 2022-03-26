@@ -183,6 +183,10 @@
         border-radius: 0.5rem 0.5rem 0 0;
     }
 
+    .contact-right p {
+        top: auto;
+        bottom: 0.5rem;
+    }
 
 }
 
