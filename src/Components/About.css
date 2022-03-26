@@ -23,7 +23,6 @@
     flex-direction: column;
     gap: 2rem;
     margin: 0 5rem;
-    width: 70%;
 }
 
 .about-text h2, .color-text {
@@ -36,8 +35,9 @@
 }
 
 .franklin-img {
-    height: 35rem;
+    height: 25em;
     margin-right: 5rem;
+    margin-top: 3rem;
 }
 
 @media screen and (max-width: 768px) {
