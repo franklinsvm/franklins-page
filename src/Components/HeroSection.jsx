@@ -10,7 +10,6 @@ const HeroSection = () => {
 
     return (
         <div className="hero-container" id="hero-id">
-            {/* <img className="hero-background" src="/Imgs/aurora.jpg" alt="Northern lights" /> */}
             <video src="Imgs/space-video.mp4" autoPlay loop muted />
             <div className="header">
                 <img className="logo-header" src="/Imgs/log (1).png" alt="Franklin's logo" />
