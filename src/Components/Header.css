@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(27,27,27,0.8);
+    top: 0;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link {
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.logo-header {
+    height: 100%;
+    z-index: 2;
+  }

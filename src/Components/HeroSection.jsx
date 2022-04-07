@@ -11,9 +11,6 @@ const HeroSection = () => {
     return (
         <div className="hero-container" id="hero-id">
             <video src="Imgs/space-video.mp4" autoPlay loop muted />
-            <div className="header">
-                <img className="logo-header" src="/Imgs/log (1).png" alt="Franklin's logo" />
-            </div>
             <div className="hero-back">
                 <h1>Mr. Franklin Martins</h1>
                 <p>Your Full Stack Developer!</p>

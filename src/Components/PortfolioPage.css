@@ -1,0 +1,119 @@
+.portfolio-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.portfolio-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: brightness(70%);
+    z-index: -1;
+}
+
+.portfolio-wrapper {
+    width: 95%;
+    height: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-items {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-item {
+    width: 20rem;
+    height: 10rem;
+    border: 0.5px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27,27,27,0.5);
+    box-shadow: 0 0.5rem 1rem rgba(237,237,237,0.5);
+    position: relative;
+}
+
+.portfolio-item:hover,
+.portfolio-item:active {
+    transform: scale(1.1);
+    box-shadow: 0 0.5rem 1rem rgba(237,237,237,0.5), 0 0 1.2rem aqua;
+}
+
+.portfolio-item a {
+    text-decoration: none;
+}
+
+.portfolio-item-text {
+    color: white;
+    font-size: 2rem;
+}
+
+.portfolio-item-img {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    position: absolute;
+    z-index: -1;
+}
+
+.portfolio-center {
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio-img {
+    height: 6rem;
+}
+
+.portfolio-center span {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .portfolio-container {
+        justify-content: flex-start;
+        height: 100%;
+    }
+
+    .portfolio-background {
+        object-fit: cover;
+    }
+
+    .portfolio-wrapper {
+        justify-content: flex-start;
+    }
+
+    .portfolio-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
