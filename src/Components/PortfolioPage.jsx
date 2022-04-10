@@ -9,16 +9,16 @@ const PortfolioPage = () => {
         <img className="portfolio-background" src="Imgs/aurora.jpg" alt="Northern Lights" />
         <div className="portfolio-wrapper">
             <ul className="portfolio-items portfolio-top" >
-                <PortfolioItem src="logo512.png" text="Spreadsheet" />
+                <PortfolioItem src="Imgs/weather-app.png" text="Weather Forecast" url="https://f-weather.herokuapp.com/" />
                 <PortfolioItem src="Imgs/google-clone.png" text="Google Clone" url="https://f-google-clone.herokuapp.com/search" />
             </ul>
             <ul className="portfolio-items portfolio-middle" >
-                {/* <PortfolioItem src="logo512.png" text="Travel Planner" /> */}
+                {/* <PortfolioItem src="logo512.png" text="Spreadsheet" /> */}
                 <div className="portfolio-center">
                     <img src="logo512.png" className="portfolio-img" alt="/" />
                     <span>My Projects!</span>
                 </div>
-                {/* <PortfolioItem src="logo512.png" text="Weather Forecast" /> */}
+                {/* <PortfolioItem src="logo512.png" text="Travel Planner" /> */}
             </ul>
             <ul className="portfolio-items portfolio-bottom" >
                 <PortfolioItem src="Imgs/calculator.png" text="Calculator" url="https://f-calculator.herokuapp.com/" />
