@@ -62,6 +62,7 @@
 .portfolio-item-text {
     color: white;
     font-size: 2rem;
+    text-align: center;
 }
 
 .portfolio-item-img {
@@ -115,5 +116,10 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
+    }
+
+    .portfolio-item {
+        width: 15rem;
+        height: 7rem;
     }
 }
