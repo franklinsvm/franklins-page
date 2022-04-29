@@ -9,7 +9,6 @@
     z-index: 1;
     cursor: pointer;
     transform: scale(1.5);
-
 }
 
 .nav-menu {
@@ -81,6 +80,12 @@
     top: 1.3rem;
     cursor: pointer;
     transform: scale(1.5);
+}
+
+
+.navbar-toggle:hover {
+    transform: rotateZ(90deg) scale(1.5);
+    transition: 0.3s all;
 }
 
 .item-title {
