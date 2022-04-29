@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css"
-import PortfolioPage from "../Components/PortfolioPage";
-import Header from "../Components/Header";
+import PortfolioPage from "../Components/Portfolio/PortfolioPage";
+import Header from "../Components/Header/Header";
 
 
 function Portfolio () {

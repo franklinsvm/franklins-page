@@ -72,8 +72,12 @@
 }
 
 .expertise-item:hover {
-    transform: scale(1.1);
     box-shadow: 0 0.7rem 1.5rem rgba(237,237,237,0.6), 0 0.3rem 0.7rem aqua;
+}
+
+.expertise-item:hover .expertise-item-img {
+    transform: scale(1.3) rotateZ(360deg);
+    transition: 0.3s all;
 }
   
 .expertise-item-text {
