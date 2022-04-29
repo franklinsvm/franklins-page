@@ -13,7 +13,7 @@ const PortfolioPage = () => {
                 <PortfolioItem src="Imgs/google-clone.png" text="Google Clone" url="https://f-google-clone.herokuapp.com/search" />
             </ul>
             <ul className="portfolio-items portfolio-middle" >
-                <PortfolioItem src="Imgs/spreadsheet.png" text="Spreadsheet" url="https://f-spreadsheet.herokuapp.com/" />
+                <PortfolioItem src="Imgs/spreadsheet.png" text="Spreadsheet" url="https://f-spreadsheet.netlify.app" />
                 <div className="portfolio-center">
                     <img src="logo512.png" className="portfolio-img" alt="/" />
                     <span>My Projects!</span>

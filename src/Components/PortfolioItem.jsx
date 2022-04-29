@@ -5,7 +5,7 @@ const PortfolioItem = (props) => {
     return (
       <>
           <li className="portfolio-item">
-              <a href={props.url} target="_blank">
+              <a href={props.url} target="_blank" rel="noreferrer">
               <div className="portfolio-item-pic-wrap">
               <img className="portfolio-item-img" src={props.src} alt="Mini project" />
               </div>
