@@ -11,7 +11,7 @@ const OptionCard = (props) => {
         <h3 className="dev-name">{props.name}</h3>
         <ul className="option-list">
           <li className="option-att">
-            <span>Academic Education</span>
+            <span>Developer Education</span>
             <div className={"progress-bar pb" + props.progressBar.academic}>
               <div></div>
             </div>
