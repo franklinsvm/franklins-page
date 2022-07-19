@@ -34,10 +34,20 @@
 }
 
 .dream-item-img {
+    width: 100%;
+    height: 100%;
+}
+
+.dream-item-img:hover {
+    transform: scale(1.3);
+}
+
+.dream-item-pic-wrap {
+    overflow: hidden;
+    box-shadow: -0.2rem 0.2rem 0.8rem aqua;
+    border-radius: 5px;
     height: 30vh;
     width: 20vw;
-    border-radius: 5px;
-    box-shadow: -0.2rem 0.2rem 0.8rem aqua;
 }
 
 .dream-steps {

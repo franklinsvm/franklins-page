@@ -22,7 +22,7 @@
 }
 
 .expertise-1 {
-    padding: 4rem;
+    padding-bottom: 4rem;
 }
   
 .section-title {
@@ -31,7 +31,7 @@
     font-weight: 500;
     color: aqua;
     filter: drop-shadow(0 0 0.5rem aqua);
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
   
 .items-container {
@@ -57,10 +57,12 @@
     height: 14rem;
     width: 18rem;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .expertise-item-img {
     height: 4.5rem;
+    max-width: 90%;
 }
   
 .expertise-item-pic-wrap {
@@ -120,6 +122,22 @@
 
 .progress-bar5 {
     width: 70%;
+}
+
+.progress-bar6 {
+    width: 65%;
+}
+
+.progress-bar7 {
+    width: 95%;
+}
+
+.progress-bar8 {
+    width: 55%;
+}
+
+.expertise-icons {
+
 }
 
 @media screen and (max-width: 768px) {

@@ -18,7 +18,7 @@ const PortfolioPage = () => {
                     <img src="logo512.png" className="portfolio-img" alt="/" />
                     <span>My Projects!</span>
                 </div>
-                <PortfolioItem src="logo512.png" text="Under Construction..." />
+                <PortfolioItem src="Imgs/shop-app.jpeg" text="Shopping Cart" url="https://f-shopping-cart.netlify.app" />
             </ul>
             <ul className="portfolio-items portfolio-bottom" >
                 <PortfolioItem src="Imgs/calculator.png" text="Calculator" url="https://f-calculator.herokuapp.com/" />
