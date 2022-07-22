@@ -10,6 +10,7 @@ const PortfolioPage = () => {
         <div className="portfolio-wrapper">
             <ul className="portfolio-items portfolio-top" >
                 <PortfolioItem src="Imgs/weather-app.png" text="Weather Forecast" url="https://f-weather.herokuapp.com/" />
+                <PortfolioItem src="Imgs/wordle.jpg" text="Wordle Clone" url="https://f-weather.herokuapp.com/" />
                 <PortfolioItem src="Imgs/google-clone.png" text="Google Clone" url="https://f-google-clone.herokuapp.com/search" />
             </ul>
             <ul className="portfolio-items portfolio-middle" >
@@ -23,6 +24,7 @@ const PortfolioPage = () => {
             <ul className="portfolio-items portfolio-bottom" >
                 <PortfolioItem src="Imgs/calculator.png" text="Calculator" url="https://f-calculator.herokuapp.com/" />
                 <PortfolioItem src="Imgs/github.png" text="GitHub" url="https://github.com/franklinsvm" />
+                <PortfolioItem src="logo512.png" text="Under Construction" url="/" />
             </ul>
         </div>
     </div>
