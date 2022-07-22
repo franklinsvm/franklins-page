@@ -19,7 +19,7 @@ const Expertise = () => {
                 <ul className="expertise-items expertise-1" >
                     <ExpertiseItem src="Imgs/html.png" text="HTML" progBar="3"/>
                     <ExpertiseItem src="Imgs/css.png" text="CSS" progBar="4"/>
-                    <ExpertiseItem src="Imgs/bootstrap.png" text="Bootstrap" progBar="8"/>
+                    <ExpertiseItem src="Imgs/btail.png" text="Bootstrap & Tailwind" progBar="6"/>
                     <ExpertiseItem src="Imgs/git.png" text="Git & GitHub" progBar="5"/>
                 </ul>
                 <ul className="expertise-items" >
