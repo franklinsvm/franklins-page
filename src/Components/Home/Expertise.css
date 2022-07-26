@@ -184,12 +184,12 @@
   }
 
   .expertise-items {
-    gap: 2rem;
+    gap: 1rem;
     padding: 0;
 }
 
   .expertise-item-text {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .expertise-item-img {
