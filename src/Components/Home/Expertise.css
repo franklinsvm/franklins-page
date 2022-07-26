@@ -202,16 +202,12 @@
  }
 
 .expertise-item:hover .icon2 {
-    transform: translate(-50%, 0) rotateZ(360deg);
     top: -15%;
-    transition: 0.3s all;
 }
 
  .expertise-item:hover .icon1,
  .expertise-item:hover .icon3 {
-    transform: translate(-50%, 0) rotateZ(360deg);
     top: 10%;
-    transition: 0.3s all;
 }
 
 }
