@@ -9,7 +9,7 @@ const PortfolioPage = () => {
         <img className="portfolio-background" src="Imgs/aurora.jpg" alt="Northern Lights" />
         <div className="portfolio-wrapper">
             <ul className="portfolio-items portfolio-top" >
-                <PortfolioItem src="Imgs/wordle.jpg" text="Wordle Clone" expertise="React, Typescript, Tailwind, Tests, Store, Zustand, Local Storage" url="https://f-weather.herokuapp.com/" />
+                <PortfolioItem src="Imgs/wordle.jpg" text="Wordle Clone" expertise="React, Typescript, Tailwind, Tests, Store, Zustand, Local Storage" url="https://f-wordle.netlify.app/" />
                 <PortfolioItem src="Imgs/weather-app.png" text="Weather Forecast" expertise="React, Tailwind, External API, Moment.js" url="https://f-weather.herokuapp.com/" />
                 <PortfolioItem src="Imgs/shop-app.jpeg" text="Shopping Cart" expertise="React, Typescript, Bootstrap, React Router, Context, Local Storage" url="https://f-shopping-cart.netlify.app" />
             </ul>
