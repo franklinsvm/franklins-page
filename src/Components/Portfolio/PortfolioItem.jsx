@@ -11,6 +11,7 @@ const PortfolioItem = (props) => {
               </div>
               <div className="portfolio-item-info">
                   <h5 className="portfolio-item-text">{props.text}</h5>
+                  <p className="portfolio-item-expertise">{props.expertise}</p>
               </div>
               </a>
           </li>
