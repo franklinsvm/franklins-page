@@ -196,4 +196,9 @@
     height: 3.7rem;
 }
 
+ .expertise-icon {
+    height: 2rem;
+    top: -10%;
+ }
+
 }
