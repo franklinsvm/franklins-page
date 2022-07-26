@@ -12,7 +12,7 @@ const Expertise = () => {
             <div className="items-wrapper">
                 <ul className="expertise-items expertise-1" >
                     <ExpertiseItem src="Imgs/js.png" text="JavaScript" progBar="2" />
-                    <ExpertiseItem src="Imgs/React.png" text="React.js" progBar="1" />
+                    <ExpertiseItem src="Imgs/React.png" text="React.js" progBar="1" icon1="Imgs/hooks.png" icon2="Imgs/redux.png" icon3="Imgs/context.png" />
                     <ExpertiseItem src="Imgs/typescript.png" text="TypeScript" progBar="6"/>
 
                 </ul>
