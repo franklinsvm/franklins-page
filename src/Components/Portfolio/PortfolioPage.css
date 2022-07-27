@@ -103,6 +103,7 @@
   font-weight: bold;
   text-align: center;
   margin: 0;
+  text-shadow: 0 0.1rem 1rem black;
 }
 
 .portfolio-img {
