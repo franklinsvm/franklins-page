@@ -5,13 +5,29 @@ const ExpertiseItem = (props) => {
   return (
     <>
       <li className="expertise-item">
-        {(props.icon1 || props.icon2 || props.icon3) && (
-          <div className="expertise-icons">
-            <img className="expertise-icon icon1" src={props.icon1} alt="" />
-            <img className="expertise-icon icon2" src={props.icon2} alt="" />
-            <img className="expertise-icon icon3" src={props.icon3} alt="" />
-          </div>
-        )}
+        <div className="expertise-icons">
+          {props.icon1 && (
+            <img
+              className="expertise-icon icon1"
+              src={props.icon1}
+              alt="Expertise icon"
+            />
+          )}
+          {props.icon2 && (
+            <img
+              className="expertise-icon icon2"
+              src={props.icon2}
+              alt="Expertise icon"
+            />
+          )}
+          {props.icon3 && (
+            <img
+              className="expertise-icon icon3"
+              src={props.icon3}
+              alt="Expertise icon"
+            />
+          )}
+        </div>
         <div className="expertise-item-pic-wrap">
           <img className="expertise-item-img" src={props.src} alt="Expertise" />
         </div>
