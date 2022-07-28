@@ -1,27 +1,29 @@
-import React from 'react'
+import React from "react";
 import "./Expertise.css";
 
 const ExpertiseItem = (props) => {
   return (
     <>
-        <li className="expertise-item">
-            <div className="expertise-icons">
-              <img className="expertise-icon icon1" src={props.icon1} alt="" />
-              <img className="expertise-icon icon2" src={props.icon2} alt="" />
-              <img className="expertise-icon icon3" src={props.icon3} alt="" />
-            </div>
-            <div className="expertise-item-pic-wrap">
-            <img className="expertise-item-img" src={props.src} alt="Expertise" />
-            </div>
-            <div className="expertise-item-info">
-                <h5 className="expertise-item-text">{props.text}</h5>
-            </div>
-            <div className="expertise-bar">
-              <div className={"progress-bar" + props.progBar}></div>
-            </div>
-        </li>
+      <li className="expertise-item">
+        {(props.icon1 || props.icon2 || props.icon3) && (
+          <div className="expertise-icons">
+            <img className="expertise-icon icon1" src={props.icon1} alt="" />
+            <img className="expertise-icon icon2" src={props.icon2} alt="" />
+            <img className="expertise-icon icon3" src={props.icon3} alt="" />
+          </div>
+        )}
+        <div className="expertise-item-pic-wrap">
+          <img className="expertise-item-img" src={props.src} alt="Expertise" />
+        </div>
+        <div className="expertise-item-info">
+          <h5 className="expertise-item-text">{props.text}</h5>
+        </div>
+        <div className="expertise-bar">
+          <div className={"progress-bar" + props.progBar}></div>
+        </div>
+      </li>
     </>
-    )
-}
+  );
+};
 
-export default ExpertiseItem
+export default ExpertiseItem;
