@@ -192,7 +192,7 @@ video {
 
   .hero-back {
     margin-top: -3rem;
-    left: 2rem;
+    left: 1.5rem;
     max-width: 88%;
   }
 
@@ -205,11 +205,11 @@ video {
   }
 
   .hero-back > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .hero-back > p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   .btn-hero {
