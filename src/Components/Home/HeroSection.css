@@ -138,7 +138,6 @@ video {
   font-size: 80px;
   font-weight: 400;
   text-shadow: 0.3rem 0.4rem 2px rgba(0, 0, 0, 0.4);
-  text-align: center;
   margin: 1rem 0 1.3rem 0;
 }
 
@@ -146,7 +145,6 @@ video {
   color: aqua;
   font-size: 2.5rem;
   font-weight: lighter;
-  text-align: center;
   margin: 0 0 5rem 0;
 }
 
@@ -194,16 +192,19 @@ video {
   }
 
   .star {
-    height: 1rem;
+    height: 1.4rem;
+  }
+
+  .stars::after {
+    content: "Click the stars!";
   }
 
   .hero-back > h1 {
-    font-size: 2rem;
-    padding-top: 3rem;
+    font-size: 60px;
   }
 
   .hero-back > p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .btn-hero {
