@@ -187,7 +187,7 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-back {
-    margin-top: -3rem;
+    margin: -3rem 0.5rem 0 0;
     left: 2rem;
     max-width: 90%;
   }
