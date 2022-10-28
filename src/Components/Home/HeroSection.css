@@ -186,10 +186,6 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container {
-    max-width: 100%;
-  }
-
   .hero-back {
     margin-top: -3rem;
     left: 1.5rem;
