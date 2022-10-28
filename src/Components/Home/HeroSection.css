@@ -186,10 +186,14 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+  .hero-container {
+    max-width: 100%;
+  }
+
   .hero-back {
-    margin: -3rem 0.5rem 0 0;
+    margin-top: -3rem;
     left: 2rem;
-    max-width: 90%;
+    max-width: 88%;
   }
 
   .star {
@@ -201,7 +205,7 @@ video {
   }
 
   .hero-back > h1 {
-    font-size: 52px;
+    font-size: 3rem;
   }
 
   .hero-back > p {
