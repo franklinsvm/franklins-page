@@ -152,42 +152,42 @@
 
 .progress-bar1 {
   width: 80%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar2 {
   width: 85%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar3 {
   width: 88%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar4 {
   width: 90%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar5 {
   width: 70%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar6 {
   width: 65%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar7 {
   width: 95%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 .progress-bar8 {
   width: 55%;
-  animation: space-bar 2s infinite;
+  animation: space-bar 4s infinite;
 }
 
 @media screen and (max-width: 768px) {
